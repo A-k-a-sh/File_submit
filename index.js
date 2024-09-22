@@ -33,7 +33,7 @@ app.listen(port , () => {
 
 app.get('/' , (req , res) => {
     //res.send('Hello there'); // only one res.send works
-    res.send('Go to  : <a href="http://localhost:3000/form"> form</a>');
+    res.send('Go to  : <a href="/form"> form</a>');
 })
 
 app.get('/form' , (req , res) => {
